@@ -697,20 +697,25 @@
         description: "Blockchain monitors for Ethereum and Solana",
         tools: "Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku",
         imgSrc: "/assets/img/lord_monitors.png",
+        projectDate: "2024-08-15"
       },
       {
         title: "Geographical Information System",
         description: "A GIS system developed in C++",
         tools: "Django, HTML, CSS, Bootstrap, SQLite, Heroku",
         imgSrc: "/assets/img/maps_logo.png",
+        projectDate: "2023-12-10",
       },
       {
         title: "Distributed Key-Value Store",
         description: "Distributed Fault Tolerant Key-Value Store",
         tools: "HTML, CSS, Bootstrap, Flask, SQLAlchemy, PostgreSQL, Python",
         imgSrc: "/assets/img/distributed_logo.png",
+        projectDate: "2024-09-01"
       }
     ];
+
+    projects.sort((a, b) => new Date(b.projectDate) - new Date(a.projectDate));
 
     let currentProjectIndex = 0; 
     const projectsPerLoad = 1;   
