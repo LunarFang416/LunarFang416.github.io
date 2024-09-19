@@ -39,3 +39,8 @@ This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.
 
 ### Activity 5
 
+![Activity 5 Screenshot](./screenshots/activity_5_1.png)
+
+![Activity 5 Screenshot](./screenshots/activity_5_2.png)
+
+![Activity 5 Screenshot](./screenshots/activity_5_3.png)
