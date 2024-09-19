@@ -421,7 +421,7 @@
 
     <!-- Fourth Section: Projects -->
     <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
+      <h3 class="page-title white-text teal">Recent Projects</h3>
       <div class="container">
         <div class="row" id="recent-projects">
           <!-- Recent Projects will be dynamically injected here -->
@@ -700,15 +700,15 @@
         projectDate: "2024-08-15"
       },
       {
-        title: "Geographical Information System",
-        description: "A GIS system developed in C++",
+        title: "GIS",
+        description: "Graphical Information System developed in C++",
         tools: "Django, HTML, CSS, Bootstrap, SQLite, Heroku",
         imgSrc: "/assets/img/maps_logo.png",
         projectDate: "2023-12-10",
       },
       {
-        title: "Distributed Key-Value Store",
-        description: "Distributed Fault Tolerant Key-Value Store",
+        title: "Distributed KV Store",
+        description: "Distributed Fault Tolerant KV Store",
         tools: "HTML, CSS, Bootstrap, Flask, SQLAlchemy, PostgreSQL, Python",
         imgSrc: "/assets/img/distributed_logo.png",
         projectDate: "2024-09-01"
@@ -735,6 +735,7 @@
             <div class="card-content">
               <span class="card-title activator teal-text hoverline">${project.title}<i class="mdi-navigation-more-vert right"></i></span>
               <p>${project.description}</p>
+              <p>${project.projectDate}</p>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
